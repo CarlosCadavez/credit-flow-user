@@ -10,6 +10,7 @@ import java.util.UUID
 @Component
 class CustomerMapper {
 
+
     fun toDomain(customerRequest: CustomerRequest): Customer {
         return Customer(
             clientId = UUID.randomUUID().toString(),
