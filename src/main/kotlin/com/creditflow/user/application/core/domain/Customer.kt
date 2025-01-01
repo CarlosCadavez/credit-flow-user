@@ -5,7 +5,7 @@ import java.time.LocalDate
 
 data class Customer(
         val id: String? = null,
-        val clientId: String,
+        val clientId: String? = null,
         val firstName: String,
         val lastName: String,
         val email: String,
